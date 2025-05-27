@@ -1,75 +1,126 @@
-<header>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produto Incrível | Sua Solução Ideal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+    }
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
 
-# GitHub Pages
+    .hero {
+      padding: 2rem;
+      background: white;
+      text-align: center;
+    }
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
 
-</header>
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
 
-<!--
-  <<< Author notes: Course start >>>
-  Include start button, a note about Actions minutes,
-  and tell the learner why they should take the course.
--->
+    .hero button {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      color: white;
+      background: #4CAF50;
+      border: none;
+      cursor: pointer;
+      border-radius: 8px;
+    }
 
-## Welcome
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
 
-With GitHub Pages, you can host project blogs, documentation, resumes, portfolios, or any other static content you'd like. Your GitHub repository can easily become its own website. In this course, we'll show you how to set up your own site or blog using GitHub Pages.
+    .feature {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
 
-- **Who is this for**: Beginners, students, project maintainers, small businesses.
-- **What you'll learn**: How to build a GitHub Pages site.
-- **What you'll build**: We'll build a simple GitHub Pages site with a blog. We'll use [Jekyll](https://jekyllrb.com), a static site generator.
-- **Prerequisites**: If you need to learn about branches, commits, and pull requests, take [Introduction to GitHub](https://github.com/skills/introduction-to-github) first.
-- **How long**: This course takes less than one hour to complete.
+    .cta {
+      background: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
 
-In this course, you will:
+    .cta button {
+      margin-top: 1rem;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      color: #4CAF50;
+      background: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
 
-1. Enable GitHub Pages
-2. Configure your site
-3. Customize your home page
-4. Create a blog post
-5. Merge your pull request
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Produto Incrível</h1>
+    <p>A solução perfeita para você!</p>
+  </header>
 
-### How to start this course
+  <section class="hero">
+    <h1>Transforme sua vida com nosso produto</h1>
+    <p>Descubra como nossa solução pode trazer mais facilidade, produtividade e resultados reais para você.</p>
+    <button>Quero Comprar Agora</button>
+  </section>
 
-<!-- For start course, run in JavaScript:
-'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'skills',
-  template_name: 'github-pages',
-  owner: '@me',
-  name: 'skills-github-pages',
-  description: 'My clone repository',
-  visibility: 'public',
-}).toString()
--->
+  <section class="features">
+    <div class="feature">
+      <h2>Fácil de Usar</h2>
+      <p>Interface intuitiva para qualquer usuário.</p>
+    </div>
+    <div class="feature">
+      <h2>Alta Performance</h2>
+      <p>Rápido, eficiente e confiável.</p>
+    </div>
+    <div class="feature">
+      <h2>Suporte 24/7</h2>
+      <p>Estamos sempre prontos para te ajudar.</p>
+    </div>
+  </section>
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=github-pages&owner=%40me&name=skills-github-pages&description=My+clone+repository&visibility=public)
+  <section class="cta">
+    <h2>Pronto para mudar sua vida?</h2>
+    <p>Garanta já o seu acesso exclusivo.</p>
+    <button>Comprar Agora</button>
+  </section>
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+  <footer>
+    &copy; 2025 Produto Incrível - Todos os direitos reservados.
+  </footer>
+</body>
+</html>
 
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
