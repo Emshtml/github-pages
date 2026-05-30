@@ -43,7 +43,7 @@ Todos os softwares são protegidos por direitos autorais.
 Licença Comercial disponível mediante contratação.
 
 Contato:
-contato@suaempresa.com ![License](https://img.shields.io/badge/license-PRO-blue)
+emslhp@icloud.com  ![License](https://img.shields.io/badge/license-PRO-blue)
 
 ![Version](https://img.shields.io/badge/version-1.0-green)
 
