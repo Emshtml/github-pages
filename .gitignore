@@ -1,37 +1,111 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+# ========================================
+# EMSHTML SOFTWARE SOLUTIONS
+# Git Ignore
+# ========================================
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
-
-# OS generated files #
-######################
+# Sistema
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
+desktop.ini
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependências
+node_modules/
+
+# Build
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# Ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Cobertura de testes
+coverage/
+
+# Arquivos compactados
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Certificados
+*.pem
+*.key
+*.crt
+
+# Banco de dados local
+*.sqlite
+*.db
+
+# Uploads temporários
+uploads/
+temp_uploads/
+
+# Sistema operacional Mac
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Relatórios
+report/
+reports/
+
+# Backup
+backup/
+backups/
+*.bak
+*.old
+
+# Arquivos de deploy local
+.vercel
+.netlify
+
+# Arquivos sensíveis
+secrets.json
+credentials.json
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.envrc
+
+# PHP
+vendor/
+
+# Arquivos gerados automaticamente
+*.map
